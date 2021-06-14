@@ -1,0 +1,6 @@
+#!/sbin/openrc-run
+command="node /root/midi-key-control/index.mjs"
+pidfile="/run/${RC_SVCNAME}.pid"
+command_args="-p ${pidfile}"
+name="midi-key-control"
+description="midi-key-control"
