@@ -42,9 +42,8 @@ const keyMappings = {
   '0': 27,
   'p': 28,
   '[': 29,
-  ']': 30,
-  '=': 31,
-  ']': 32,
+  '=': 30,
+  ']': 31,
 };
 
 export default keyMappings;
