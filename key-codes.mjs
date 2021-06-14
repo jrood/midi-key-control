@@ -1,9 +1,9 @@
-const keyCodes =
+const keyCodes = (
   `  1234567890-=` +
   `  qwertyuiop[]` +
   `  asdfghjkl;' ` +
   `  zxcvbnm,./`
-  .split('')
+  ).split('')
   .map(c => c == ' ' ? null : c);
 
 // function keys
