@@ -1,7 +1,7 @@
-import Keyboard from './keyboard';
-import MidiDevice from './midi-device';
-import keyCodes from './key-codes';
-import keyMappings from './key-mappings';
+import Keyboard from './keyboard.mjs';
+import MidiDevice from './midi-device.mjs';
+import keyCodes from './key-codes.mjs';
+import keyMappings from './key-mappings.mjs';
 
 const keyboard = new Keyboard('/dev/input/event0');
 const hermod = new MidiDevice('hermod');
