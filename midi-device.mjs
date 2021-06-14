@@ -10,7 +10,7 @@ export default class MidiDevice {
     if (!name) {
       throw new Error(`Could not find ${query}`);
     }
-    this.output = new easymidi.Output(query);
+    this.output = new easymidi.Output(name);
   }
 
   setChannel(channel) {
