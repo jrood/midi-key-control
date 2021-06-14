@@ -23,7 +23,7 @@ keyboard.onKeyEvent(evt => {
   // to do: if shift key is down, bring up an octave
 
   if (typeof val == 'string' && val.indexOf('channel') == 0) {
-    const channel = val.split('channel')[0];
+    const channel = val.split('channel')[1];
     hermod.setChannel(+channel);
   }
   if (typeof val == 'number') {
