@@ -1,0 +1,23 @@
+{
+  "name": "midi-key-control",
+  "version": "1.0.0",
+  "description": "control a midi device with a qwerty keyboard",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrood/midi-key-control.git"
+  },
+  "author": "John Rood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrood/midi-key-control/issues"
+  },
+  "homepage": "https://github.com/jrood/midi-key-control#readme",
+  "dependencies": {
+    "easymidi": "^2.0.5",
+    "input-event": "^1.2.6"
+  }
+}
