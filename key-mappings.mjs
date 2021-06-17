@@ -7,6 +7,7 @@ const keyMappings = {
   'F6': 'channel6',
   'F7': 'channel7',
   'F8': 'channel8',
+  'F9': 'channel0',
   'z': 0,
   's': 1,
   'x': 2,
